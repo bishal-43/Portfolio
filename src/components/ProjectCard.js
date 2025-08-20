@@ -19,8 +19,8 @@ export default function ProjectCard({ project }) {
     return (
         <motion.div
             className="bg-slate-800 rounded-lg overflow-hidden shadow-lg transition-shadow duration-300"
-            variants={cardVariants} // Use the variants defined above
-            whileHover={{ y: -5, scale: 1.03, boxShadow: "0px 10px 30px rgba(120, 95, 240, 0.2)" }} // Enhanced hover effect
+            variants={cardVariants} 
+            whileHover={{ y: -5, scale: 1.03, boxShadow: "0px 10px 30px rgba(120, 95, 240, 0.2)" }} 
         >
             <div className="bg-slate-800 rounded-lg overflow-hidden shadow-lg hover:shadow-indigo-500/40 transition-shadow duration-300 transform hover:-translate-y-1">
                 {/* Image */}

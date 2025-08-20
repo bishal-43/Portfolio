@@ -4,15 +4,12 @@ import { FiDownload } from 'react-icons/fi';
 import Image from "next/image";
 
 export default function AboutPage() {
-    // A structured list of your skills for easy updating
+    
     const skills = [
-        // Frontend
+        
         "React", "Next.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS",
-        // Backend
         "Node.js", "Express", "Python", "Flask",
-        // AI/ML
         "TensorFlow", "Scikit-learn", "OpenCV",
-        // Databases & Others
         "MongoDB", "Firebase", "Git", "Docker"
     ];
 
@@ -27,8 +24,8 @@ export default function AboutPage() {
                 <motion.div
                     className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 items-center"
                     initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }} // Fades in when the grid is in view
-                    viewport={{ once: true, amount: 0.3 }} // Animates once, when 30% of it is visible
+                    whileInView={{ opacity: 1 }}                      // Fades in when the grid is in view
+                    viewport={{ once: true, amount: 0.3 }}              // Animates once, when 30% of it is visible
                     transition={{ duration: 0.8 }}
                 >
 
@@ -37,10 +34,10 @@ export default function AboutPage() {
                     <div className="flex justify-center md:col-span-1">
                         <div className="w-60 h-60 md:w-72 md:h-72 rounded-full overflow-hidden shadow-2xl">
                             <Image
-                                src="/images/myphoto.jpg" // IMPORTANT: Add your professional photo here
+                                src="/images/myphoto.jpg"                 // Add your professional photo here
                                 alt="Bishal Kumar Gupta"
-                                width={288} // equivalent to w-72
-                                height={288} // equivalent to h-72
+                                width={288} 
+                                height={288} 
                                 className="w-full h-full object-cover"
                             />
                         </div>
@@ -68,7 +65,7 @@ export default function AboutPage() {
 
                         {/* Download CV Button */}
                         <a
-                            href="/resume/bishal_gupta_resume.pdf" // IMPORTANT: Add the path to your resume PDF
+                            href="/resume/bishal_gupta_resume.pdf"                 // Add the path of your resume PDF
                             download
                             className="inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 duration-300 shadow-lg"
                         >

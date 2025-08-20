@@ -1,6 +1,6 @@
 "use client";
 
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Example icons
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; 
 
 export default function Footer() {
   const navLinks = [
@@ -10,7 +10,7 @@ export default function Footer() {
     { href: '/contact', text: 'Contact' },
   ];
 
-  const socialLinks = [
+  const socialLinks = [                                                       // social media link
     { href: 'https://github.com', icon: <FaGithub size={24} /> },
     { href: 'https://linkedin.com', icon: <FaLinkedin size={24} /> },
     { href: 'https://twitter.com', icon: <FaTwitter size={24} /> },

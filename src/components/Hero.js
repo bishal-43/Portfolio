@@ -1,6 +1,6 @@
 "use client"
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Example icons
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; 
 import Image from "next/image";
 
 export default function Hero() {
@@ -69,7 +69,7 @@ export default function Hero() {
                     <Image
                         src="/images/myphoto.jpg"
                         alt="Bishal Kumar Gupta"
-                        width={384}   // equivalent to w-96
+                        width={384}   
                         height={384}
                         className="rounded-full object-cover"
                     />

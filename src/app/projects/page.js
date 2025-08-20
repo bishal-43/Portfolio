@@ -21,8 +21,8 @@ export default function ProjectPage() {
             description: "A full-stack platform for users to get quick medical consultations from registered doctors.",
             tech: ["React", "Node.js", "Express", "MongoDB"],
             image: "/images/quickmeds.png", // Add path to your project image
-            repoUrl: "https://github.com/bishal-43/quick-meds",
-            liveUrl: "https://quick-meds.example.com",
+            repoUrl: "https://github.com/Parthaa43-eng/Quick-Meds-Website",
+            liveUrl: "https://speed-pharma-v9jx.vercel.app/",
         },
         {
             title: "Brain Tumor Detection",

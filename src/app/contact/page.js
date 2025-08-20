@@ -1,6 +1,6 @@
 "use client";
 import { motion } from 'framer-motion';
-import { FiMail, FiMapPin } from 'react-icons/fi'; // Using react-icons for consistency
+import { FiMail, FiMapPin } from 'react-icons/fi'; 
 
 export default function Contact() {
   return (
@@ -18,8 +18,8 @@ export default function Contact() {
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-10 md:gap-12 items-center"
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} // Fades in when the grid is in view
-          viewport={{ once: true, amount: 0.3 }} // Animates once, when 30% of it is visible
+          whileInView={{ opacity: 1 }}                      // Fades in when the grid is in view
+          viewport={{ once: true, amount: 0.3 }}               // Animates once, when 30% of it is visible
           transition={{ duration: 0.8 }}
         >
           
